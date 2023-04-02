@@ -15,7 +15,7 @@
     height: 3em;
     width: 3em;
     border-radius: 25px;
-    border-style: 2px black;
+    border-style: none;
     background-color: #000000bd;
     color: #ffffff;
 }

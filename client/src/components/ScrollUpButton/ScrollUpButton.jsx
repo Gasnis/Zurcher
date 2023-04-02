@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import style from "../ScrollUpButton/ScrollUpButton.module.css";
-import {IoArrowUpSharp} from "react-icons/io5"
+import {IoCaretUpOutline} from "react-icons/io5"
 
 export default function BackToTopButton() {
 
@@ -29,7 +29,7 @@ export default function BackToTopButton() {
         <div>
             {BackToTop && (
                 <button className={ darkmode ? style.scrollButton : style.scrollButtonDark} 
-                onClick={scrollToTop}><IoArrowUpSharp className={style.icon}/></button>
+                onClick={scrollToTop}><IoCaretUpOutline className={style.icon}/></button>
             )}
         </div>
     )
