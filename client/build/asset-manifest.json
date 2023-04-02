@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.43de836c.css",
-    "main.js": "/static/js/main.ad2a8eee.js",
+    "main.css": "/static/css/main.8d03b8ca.css",
+    "main.js": "/static/js/main.d949d532.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/Vector.png": "/static/media/Vector.150fc0d0e629919b30ad.png",
+    "static/media/logo-removed.png": "/static/media/logo-removed.5f456d5c7b75aafda542.png",
+    "static/media/home-repair.jpg": "/static/media/home-repair.05277b564e84ec110877.jpg",
+    "static/media/home.jpg": "/static/media/home.6ecf7474a723b5d973e2.jpg",
+    "static/media/papers.co-si41-spring-yellow-blue-gradation-blur-25-wallpaper.jpg": "/static/media/papers.co-si41-spring-yellow-blue-gradation-blur-25-wallpaper.9392ef376ed274454dec.jpg",
     "index.html": "/index.html",
-    "main.43de836c.css.map": "/static/css/main.43de836c.css.map",
-    "main.ad2a8eee.js.map": "/static/js/main.ad2a8eee.js.map",
+    "main.8d03b8ca.css.map": "/static/css/main.8d03b8ca.css.map",
+    "main.d949d532.js.map": "/static/js/main.d949d532.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43de836c.css",
-    "static/js/main.ad2a8eee.js"
+    "static/css/main.8d03b8ca.css",
+    "static/js/main.d949d532.js"
   ]
 }
