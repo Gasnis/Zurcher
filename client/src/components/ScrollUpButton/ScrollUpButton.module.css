@@ -1,0 +1,30 @@
+
+
+.scrollButtonDark:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.icon {
+    transform: scale(1.5);
+}
+.scrollButtonDark {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    height: 3em;
+    width: 3em;
+    border-radius: 25px;
+    border-style: 2px black;
+    background-color: #000000bd;
+    color: #ffffff;
+}
+
+@media (max-width: 550px){
+    .scrollButtonDark{
+        position: fixed;
+        bottom: 5em;
+        right: 6em;
+        z-index: 3;
+    }
+  }
