@@ -15,31 +15,29 @@
 
 .banner{
   width: 100%;
-  height: 400px;
+  height: 300px;
+  overflow: hidden;
+  filter: blur(1px);
 }
 
 .namecontainer{
   position: absolute;
-  width: 524px;
-  height: 468px;
-  left:400px;
+  text-align: center;
+  left:300px;
   top: 55px;
 
 }
 .name{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: black;
+  color: rgb(230, 190, 12);
+  border-style: 1px solid black;
+  text-shadow:  5px 5px 5px black;
   font-style:normal;
   font-weight: 800;
   font-size: 80px;
   text-align: center;
 }
 
-
-.description{
-  margin-inline: 80px;
-  font-weight: 500;
-}
 
 .container{
   display: flex;
@@ -69,10 +67,26 @@
   padding: 10px;
 }
 
+.btn{
+  background-color: black;
+  color: white;
+}
+
+.description{
+  margin-inline: 80px;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
 .footer{
   background-color: rgb(24, 79, 116);
   text-align: start;
   padding: 10px;
+  padding-left: 25px;
   color: white;
   font-size: medium;
 }
@@ -82,13 +96,12 @@
 @media (max-width: 720px){
 
   .navbar{
-    display: grid;
-    grid-template-columns: auto;
+    padding: 0px;
   }
-
-  .navbar h1{
+  .navname{
     visibility: hidden;
   }
+
 
   .banner{
     height: 130px;
@@ -97,16 +110,17 @@
 
   .namecontainer{
     position: absolute;
-    left: -55px;
-    top: 220px;
+    left: 20px;
+    top: 100px;
   }
   .name{
-    font-size: 30px;
+    font-size: 60px;
     font-weight: 900;
   }
 
   .description{
     margin-inline: 30px;
+    
   }
 
   .card{
