@@ -23,7 +23,7 @@ export default function Home() {
     {
       name: "Home Repairs",
       description:
-        "Home repairs fix or restore a damaged or malfunctioning home. They include tasks such as fixing leaks, patching roofs, and replacing broken windows or doors. Regular maintenance helps prevent major repairs, but unforeseen issues require prompt attention to avoid more damage or safety risks.",
+        "Home repairs fix or restore a damaged or malfunctioning home. They include tasks such as fixing leaks, patching roofs,  broken windows or doors. Regular maintenance helps prevent major repairs, but unforeseen issues require prompt attention to avoid more damage or safety risks.",
       image: homeRepair,
     },
 
