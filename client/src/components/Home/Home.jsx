@@ -23,7 +23,7 @@ export default function Home() {
     {
       name: "Home Repairs",
       description:
-        "Home repairs fix or restore a damaged or malfunctioning home. They include tasks such as fixing leaks, patching roofs,  broken windows or doors. Regular maintenance helps prevent major repairs, but unforeseen issues require prompt attention to avoid more damage or safety risks.",
+        "Home repairs fix or restore a damaged or malfunctioning home. They include tasks such as fixing leaks, patching roofs,  broken windows or doors. Regular maintenance helps prevent major repairs, but unforeseen issues require prompt attention to avoid more damage or safety risks.",
       image: homeRepair,
     },
 
@@ -94,7 +94,7 @@ export default function Home() {
     },
     {
       name: "Carpentry",
-      description: "Custom carpentry work for your home or workplace. Create unique and functional pieces that meet your specific needs.",
+      description: "Repair and maintenance for all your wooden furniture",
       image:
         "https://cdn.shopify.com/s/files/1/2676/8414/articles/shutterstock_578729953_720x.jpg?v=1598017657",
     },
@@ -118,7 +118,7 @@ export default function Home() {
     },
     {
       name: "Plumbing",
-      description: "Professional plumbing services for repairs, installations, and maintenance. Keep your pipes and fixtures in good condition and avoid costly water damage.",
+      description: "Professional plumbing services for repairs and maintenance. Keep your pipes and fixtures in good condition and avoid costly water damage.",
       image:
         "https://gsmplumbing.com.au/wp-content/uploads/bb-plugin/cache/Depositphotos_207274982_l-2015-1024x682-landscape.jpg",
     },
@@ -182,20 +182,7 @@ export default function Home() {
       <div className={style.description}>
         <h2>ABOUT US</h2>
         <p>
-          Welcome to our home repair company located in sunny Florida! We
-          specialize in providing top-quality repair services to homeowners
-          throughout the state. Our skilled technicians are highly trained and
-          experienced in all aspects of home repair, including plumbing,and
-          more. Whether you need a leaky faucet fixed, a new air conditioning
-          unit installed, or any other type of home repair, we are here to help.
-          We understand that your home is your sanctuary, which is why we always
-          strive to provide the best possible service to our customers. We use
-          only the highest quality materials and equipment to ensure that your
-          repairs are done right the first time, and we always stand behind our
-          work with a satisfaction guarantee. So whether you're dealing with a
-          minor repair issue or a major home renovation project, our team is
-          here to help. Contact us today to schedule an appointment with one of
-          our friendly and knowledgeable technicians!
+        Welcome to our home repair company located in sunny Florida!  We specialize in providing top-quality repair services to homeowners throughout the state.  Our skilled technicians are highly trained and experienced in all aspects of home repair, including plumbing, painting and more.  Whether you need a leaky faucet fixed, keep your fences, hang a tv, or any other type of home repair, we are here to help.  We understand that your home is your sanctuary, which is why we always strive to provide the best possible service to our customers.  We use only the highest quality materials and equipment to ensure that your repairs are done right the first time, and we always stand behind our work with a satisfaction guarantee.  So whether you're dealing with a minor repair issue or a major home renovation project, our team is here to help.  Contact us today to schedule an appointment with one of our friendly and knowledgeable technicians!
         </p>
       </div>
 
