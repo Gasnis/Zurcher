@@ -9,6 +9,9 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+
 }
 
 code {
@@ -19,4 +22,10 @@ code {
 textarea, input { outline: none; }
 input:-webkit-autofill {
   background-color: #c7a2ed !important;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  margin: 20px;
 }
