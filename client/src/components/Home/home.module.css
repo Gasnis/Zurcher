@@ -233,9 +233,9 @@ button {
 
   .namecontainer{
     position: absolute;
-    left: 20px;
+    left: 0px;
     top: -50px;
-    visibility: hidden;
+   
   }
 
   .name{
@@ -245,17 +245,14 @@ button {
 
   .logoContainer{
     position: absolute;
-    left: 100px;
+    left: 0px;
     top: -15px;
-  }
-
-  .logo{
     visibility: hidden;
   }
 
   .contactContainer{
     position:absolute;
-    right: 15px;
+    right: 5px;
     top: 0px;
   }
 
