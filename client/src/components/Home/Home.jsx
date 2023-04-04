@@ -29,12 +29,12 @@ export default function Home() {
 
     {
       name: "Furniture Assembly",
-      description: "",
+      description: "Assembly of furniture in your home or workplace. Save time and avoid assembly errors.",
       image: furnitureAssembly,
     },
     {
       name: "TV Mounting",
-      description: "",
+      description: "TV Mounting: Professional installation of TV mounts. Get optimal viewing angles and save space in your room.",
       image:
         "https://www.tvaudiomounting.com/uploads/1/0/1/7/101710986/tv-mounting-gilbert-az_orig.jpg",
     },
@@ -46,79 +46,79 @@ export default function Home() {
     },
     {
       name: "Doorbell Installation",
-      description: "",
+      description: "Professional installation of doorbells. Never miss a visitor or delivery again.",
       image:
         "https://empire-s3-production.bobvila.com/articles/wp-content/uploads/2017/03/iStock-1271510499-1.jpg",
     },
     {
       name: "Smart Home Installation",
-      description: "",
+      description: "Installation and setup of smart home devices such as smart thermostats, security cameras, and voice assistants.",
       image:
         "https://www.techhive.com/wp-content/uploads/2022/01/gettyimages-583690618-100768089-orig.jpg?quality=50&strip=all",
     },
     {
       name: "Ceiling fan installation",
-      description: "",
+      description: "Professional installation of ceiling fans. Keep your home cool and comfortable.",
       image:
         "https://s42814.pcdn.co/wp-content/uploads/2020/08/P3YFB1-1-scaled.jpg.optimal.jpg",
     },
     {
       name: "Lighting installation",
-      description: "",
+      description: "Professional installation of lighting fixtures. Improve the ambiance and functionality of your living spaces.",
       image:
         "https://www.martinrowan.co.uk/wp-content/uploads/2018/02/IMG_3021.jpg",
     },
     {
       name: "Deck repair",
-      description: "",
+      description: "Repair and restoration of damaged decks. Ensure safety and prolong the life of your deck.",
       image:
         "https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/how-to-repair-decking-and-joists-hero.jpg",
     },
     {
       name: "Fence repair",
-      description: "",
+      description: "Repair and restoration of damaged fences. Enhance the privacy and security of your property.",
       image:
         "https://handymanconnection.com/alpharetta/wp-content/uploads/sites/7/2021/04/MV_0604_0510.jpg",
     },
     {
       name: "Drywall repair",
-      description: "",
+      description: "Repair and patching of damaged drywall. Achieve a seamless and polished look in your walls.",
       image:
         "https://www.jalapenopaintwerx.com/wp-content/uploads/2017/12/drywall-repair.jpg",
     },
     {
       name: "Painting touch-ups",
-      description: "",
+      description: "Professional touch-ups to your painted walls and surfaces. Keep your home looking fresh and well-maintained.",
       image:
         "https://www.familyhandyman.com/wp-content/uploads/2020/12/Screen-Shot-2021-03-01-at-3.05.18-PM-copy.png",
     },
     {
       name: "Carpentry",
-      description: "",
+      description: "Custom carpentry work for your home or workplace. Create unique and functional pieces that meet your specific needs.",
       image:
         "https://cdn.shopify.com/s/files/1/2676/8414/articles/shutterstock_578729953_720x.jpg?v=1598017657",
     },
     {
       name: "Heavy lifting",
-      description: "",
+      description: "Professional heavy lifting services for moving or rearranging large and bulky items.",
       image:
         "https://petrocohen.com/wp-content/uploads/2021/05/JAN-20-incorrect-lifting-injuries-GT.jpg",
     },
     {
       name: "Wallpapering service",
-      description: "",
+      description: "Installation of wallpaper in your home or workplace. Transform your walls with stylish and personalized designs.",
       image:
         "https://s42814.pcdn.co/wp-content/uploads/2019/12/howto_wallpaper_01_copy-1.jpg.optimal.jpg",
     },
     {
       name: "Pressure washing",
-      description: "",
+      description: "High-pressure cleaning of outdoor surfaces such as decks, patios, and driveways. Remove dirt, grime, and stains for a refreshed look.",
       image:
         "https://insights.workwave.com/wp-content/uploads/2021/01/brick-pressure-washing-picture-id1094145182.jpg",
     },
     {
       name: "Plumbing",
-      description: "",
+      description: "Professional plumbing services for repairs, installations, and maintenance. Keep your pipes and fixtures in good condition and avoid costly water damage.",
       image:
         "https://gsmplumbing.com.au/wp-content/uploads/bb-plugin/cache/Depositphotos_207274982_l-2015-1024x682-landscape.jpg",
     },
