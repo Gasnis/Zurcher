@@ -34,7 +34,7 @@
 .contactContainer{
   position: absolute;
   text-align: center;
-  right: 50px;
+  right: 45px;
   top: 40px;
   color:rgb(230, 190, 12) ;
   text-shadow: black 2px 2px 2px;
@@ -96,6 +96,8 @@
 
 .inputContainer{
   margin: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .input {
@@ -150,6 +152,7 @@
   background: transparent;
   text-transform: uppercase;
   font-weight: 900;
+  
 }
 
 .box:before {
@@ -204,6 +207,7 @@ button {
   outline: none;
   border: none;
   background: transparent;
+  
 }
 
 .footer{
@@ -219,7 +223,7 @@ button {
 }
 
 
-@media (max-width: 720px){
+@media (max-width: 1163px){
 
 
   .banner{
@@ -241,7 +245,7 @@ button {
 
   .logoContainer{
     position: absolute;
-    left: 110px;
+    left: 100px;
     top: -15px;
   }
 
@@ -271,5 +275,18 @@ button {
   .imageCard{
     justify-content: center;
     align-items: center;
+  }
+  .input{
+    width: auto;
+    height: auto;
+  }
+
+  .textarea{
+    width: 150px;
+    height: 200px;
+  }
+
+  .footer{
+    padding: 10px;
   }
 }

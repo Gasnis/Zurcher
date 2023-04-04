@@ -40,7 +40,7 @@ export default function Home() {
     },
     {
       name: "Picture Hanging",
-      description: "",
+      description: "We hang pictures and artwork making sure they are level and secure.",
       image:
         "https://hips.hearstapps.com/hmg-prod/images/woman-hanging-photographs-in-art-gallery-royalty-free-image-1619024190.?crop=0.668xw:1.00xh;0.332xw,0&resize=1200:*",
     },
