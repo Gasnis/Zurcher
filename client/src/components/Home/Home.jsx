@@ -9,9 +9,10 @@ import {
   IoLogoWhatsapp,
   IoLogoInstagram,
   IoMailOutline,
+  IoLocationOutline,
 } from "react-icons/io5";
 import emailjs from "@emailjs/browser";
-import sweetalert from "sweetalert"
+import sweetalert from "sweetalert";
 
 export default function Home() {
   let works = [
@@ -148,16 +149,29 @@ export default function Home() {
   const form = useRef();
 
   const toContact = (e) => {
-    form.current.scrollIntoView({ behavior: 'smooth' });
+    form.current.scrollIntoView({ behavior: "smooth" });
   };
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_4rec7wc",
-    "template_cv8ph4b",
-    form.current, "W4nWKKi0VsLAZ18MC").then(result => {sweetalert(`Hi ${form.current.user_name.value} the email has been sent successfully. You will receive a response within 24 hours. Thank you very much.`)},
-    error => {alert("Sorry something goes wrong, try later");});
+    emailjs
+      .sendForm(
+        "service_4rec7wc",
+        "template_cv8ph4b",
+        form.current,
+        "W4nWKKi0VsLAZ18MC"
+      )
+      .then(
+        (result) => {
+          sweetalert(
+            `Hi ${form.current.user_name.value} the email has been sent successfully. You will receive a response within 24 hours. Thank you very much.`
+          );
+        },
+        (error) => {
+          alert("Sorry something goes wrong, try later");
+        }
+      );
   };
 
   return (
@@ -177,8 +191,6 @@ export default function Home() {
           classname={style.logo}
           src={logo}
           alt=""
-          height="190px"
-          width="190px"
         />
       </div>
 
@@ -198,7 +210,11 @@ export default function Home() {
             <div>
               <h2>{work.name}</h2>
               <p>{work.description}</p>
-              <button className={style.btn} onClick={toContact}  value={work.name}>
+              <button
+                className={style.btn}
+                onClick={toContact}
+                value={work.name}
+              >
                 BOOK
               </button>
             </div>
@@ -256,11 +272,13 @@ export default function Home() {
             />
           </div>
           <div>
-            <select name="user_work" id="" className={style.select}>
-              <option value="Services" hidden>Services</option>
-            {works.map((work) => (
-        <option value={work.name}>{work.name}</option>
-      ))}
+            <select name="user_service" id="" className={style.select}>
+              <option value="Services" hidden>
+                Services
+              </option>
+              {works.map((work) => (
+                <option value={work.name}>{work.name}</option>
+              ))}
             </select>
           </div>
 
@@ -269,7 +287,7 @@ export default function Home() {
               className={style.textarea}
               type="text"
               placeholder="Your messagge"
-              name="message"          
+              name="message"
             />
           </div>
 
@@ -282,27 +300,48 @@ export default function Home() {
       </form>
 
       <div className={style.footer}>
+        
+
         <div>
-          <a href="https://www.instagram.com/zurcher.handyman/" target={"new"}>
-            <IoLogoInstagram /> Instagram: zurcher.handyman
-          </a>
-        </div>
-        <div>
-          <a
-            href="mailto:zurcher.handyman@gmail.com?Subject=
+          <div>
+            <IoLogoInstagram />
+            <a
+              href="https://www.instagram.com/zurcher.handyman/"
+              target={"new"}
+            >
+              Instagram: zurcher.handyman
+            </a>
+          </div>
+          <div>
+            <IoMailOutline />
+            <a
+              href="mailto:zurcher.handyman@gmail.com?Subject=
 Interested%20in your%20service,%20when%20do%20you%20have%20availability?"
-          >
-            <IoMailOutline /> Email: zurcher.handyman@gmail.com
-          </a>
-        </div>
+            >
+              Email: zurcher.handyman@gmail.com
+            </a>
+          </div>
 
-        {/* <a href=""><IoLogoFacebook /> Facebook</a> */}
+          <div>
+            <IoLogoWhatsapp />
+            <a href="https://wa.me/14074194495">Number: (407) 419-4495</a>
+          </div>
+          <div>
+            <IoLocationOutline />
+            <a href=" ">Orlando, Florida</a>
+          </div>
+        </div>
 
         <div>
-          <a href="https://wa.me/14074194495">
-            <IoLogoWhatsapp /> Number: (407) 419-4495
-          </a>
+          <p>
+            Copyright © Zurcher Handyman, All rights reserved. All locations are
+            locally owned and independently operated franchises. Fully Insured -
+            General Liability and Workers' Compensation. Some services are
+            subject to state and local licensing and may not be available at all
+            locations.
+          </p>
         </div>
+
       </div>
 
       <ScrollUpButtom />
