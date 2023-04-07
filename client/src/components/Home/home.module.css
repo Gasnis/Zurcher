@@ -227,7 +227,7 @@ button {
 
 .footer{
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: auto;
   background-color: rgb(24, 79, 116);
   padding:20px;
   color: white;
